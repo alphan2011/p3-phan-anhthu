@@ -1,7 +1,7 @@
 class Header {
-    constructor(title) {
-        this.title = title;
+    constructor(logo) {
+        this.logo = logo;
     }
 }
 
-export const header = new Header('Bon Appétit lunch generator');
+export const header = new Header('../images/logo.png');

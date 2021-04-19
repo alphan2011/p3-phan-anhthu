@@ -4,4 +4,4 @@ class Footer {
     }
 }
 
-export const footer = new Footer('Footer Content!');
+export const footer = new Footer('Click Surprise Me to generate your lunch!');
