@@ -1,6 +1,7 @@
 import { header } from './modules/header';
 import { footer } from './modules/footer';
-import { generator } from './modules/generator';
+import { button } from './modules/button';
+import { lunch } from './modules/generator';
 
 class App {
     constructor() {
@@ -8,9 +9,12 @@ class App {
     }
     renderTemplate() {
         const template = `
-            <h1>${header.title}</h1>
-            <main>${lunch.lunchContent}</main>
-            <footer>${footer.footerContent}
+            <img class="logo" src="${header.logo}" />
+            <div class="wrapper">
+                <main>${lunch.lunchContent}</main>
+                <footer>${footer.footerContent}</footer>
+                <button>${button.button}</button>
+            </div>
         `;
 
         document.body.innerHTML = template;
