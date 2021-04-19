@@ -1,0 +1,30 @@
+{
+  "name": "p3-phan-anhthu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphan2011/p3-phan-anhthu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphan2011/p3-phan-anhthu/issues"
+  },
+  "homepage": "https://github.com/alphan2011/p3-phan-anhthu#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
