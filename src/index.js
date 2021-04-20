@@ -11,9 +11,9 @@ class App {
         const template = `
             <img class="logo" src="${header.logo}" />
             <div class="wrapper">
-                <main>${lunch.lunchContent}</main>
+                <img id="food" src="${lunch.lunchContent}" />
                 <footer>${footer.footerContent}</footer>
-                <button>${button.button}</button>
+                <button id="button">${button.button}</button>
             </div>
         `;
 
