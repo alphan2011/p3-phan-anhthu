@@ -6,12 +6,13 @@ import { lunch } from './modules/generator';
 class App {
     constructor() {
         this.renderTemplate();
+        lunch.showResult();
     }
     renderTemplate() {
         const template = `
             <img class="logo" src="${header.logo}" />
             <div class="wrapper">
-                <img id="food" src="${lunch}" />
+                <img id="food" src="../images/bruschetta.png" />
                 <footer>${footer.footerContent}</footer>
                 <button id="button">${button.button}</button>
             </div>
