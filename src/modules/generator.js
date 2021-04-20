@@ -27,7 +27,7 @@ const food = [
         showResult() { 
           document.getElementById('button').addEventListener('click', () => {
             this.randomizeLunches();
-            document.getElementById('food').src = food[0].img;
+            document.getElementById('food').src = food[0];
           });
         }
     }
